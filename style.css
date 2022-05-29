@@ -101,4 +101,7 @@ button:hover{
     #resort{
         text-align: center;
     }
+    .brand{
+	    font-size: 2rem;
+    }
 }
