@@ -40,6 +40,12 @@ p{
     margin: 70px 0 0 50px;
     line-height: 1;
 }
+@media (max-width: 768px){
+    .brand{
+        font-size: 2rem;
+    }
+}
+
 
 body{
     background-image: url("food.jpg");
@@ -73,12 +79,12 @@ nav ul li a{
 }
 @media (max-width: 768px){
     nav ul li a{
-        padding: 15px 2px ;
+        padding: 15px 4px ;
     }
 }
 @media (max-width: 768px){
     nav ul{
-        padding-left: 0;
+        padding-left: 4px;
     }
 }
 
