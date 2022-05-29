@@ -84,7 +84,7 @@ nav ul li a{
 }
 @media (max-width: 768px){
     nav ul{
-        padding-left: 4px;
+        padding-left: 15px;
     }
 }
 
