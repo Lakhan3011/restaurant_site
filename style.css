@@ -9,26 +9,26 @@ h1{
     font-family: "Montserrat";
     font-weight: 800;
     font-size: 3.5rem;
-    line-height: 1.5;
+    line-height: 1;
     margin: 90px 0 0 50px;
-    color: #140E09;
+    color: #F6BE00;
 }
 h2{
     text-align: left;
     font-family: "Montserrat";
     font-weight: 800;
     font-size: 3rem;
-    line-height: 1.5;
+    line-height: 1;
     margin: 40px 0 0 50px;
-    color: #140E09;
+    color: #F6BE00;
 }
 p{
     font-family: "Montserrat";
     font-weight: 500;
     font-size: 2.2rem;
-    color: #000000;
+    color: #FBB117;
     margin: 40px 0 0 50px;
-    line-height: 1.5;
+    line-height: 1;
 }
 
 .brand{
@@ -36,16 +36,18 @@ p{
     font-family: "Montserrat";
     font-weight: 500;
     font-size: 3rem;
-    color: #CE9461;
+    color: #FFF;
     margin: 70px 0 0 50px;
     line-height: 1;
 }
 
-#resort{
-    width: 100%;
-    height: 100vh;
+body{
     background-image: url("food.jpg");
-    background-size: cover;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+#resort{
+	padding-bottom:20px;
 }
 
 nav{
@@ -67,7 +69,7 @@ nav ul li{
 }
 
 nav ul li a:hover{
-    background-color: wheat;
+    background-color: #cea662;
 }
 
 nav ul li a{
@@ -77,7 +79,7 @@ nav ul li a{
 }
 
 button{
-    background-color: #D29E70; 
+    background-color: #FFDB58; 
     border: none;
     color: #000000;
     padding: 15px 32px;
@@ -90,20 +92,10 @@ button{
     border-radius: 2px;
 }
 button:hover{
-    background-color: white;
+    background-color: #F6BE00;
     color: black;
 }
 
-
-.logo{
-    margin-left: 40%;
-    margin-top: 7%;
-}
-.social-icon{
-    float: left;
-    margin: 0 0 0 40px;
-    color: #140E09;
-}
 
 @media (max-width: 1000px){
     #resort{
