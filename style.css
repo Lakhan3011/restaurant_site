@@ -97,7 +97,7 @@ button:hover{
 }
 
 
-@media (max-width: 1000px){
+@media (max-width: 768px){
     #resort{
         text-align: left;
     }
