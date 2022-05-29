@@ -99,7 +99,7 @@ button:hover{
 
 @media (max-width: 1000px){
     #resort{
-        text-align: center;
+        text-align: left;
     }
     .brand{
 	    font-size: 2rem;
